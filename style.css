@@ -16,14 +16,13 @@ p{
     font-size: 1em;
 }
 #logo{
-    width: 100px;
-    height: 100px;
     position: fixed;
     font-size: 3em;
 
 }
 .center{
     display: flex;
+    height: 80%;
     padding-top: 10vh;
 }
 
@@ -86,8 +85,6 @@ footer{
     /* margin-top: 40%; */
     justify-content: center;
     align-items: flex-end;
-    /* height: 100%; */
-    /* padding-top: 60%; */
     text-align: center;
 }
 .btn button{

@@ -3,6 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+#page1{
+    /* background-color: hsl(0, 0%, 20%); */
+    background: radial-gradient(ellipse at center, hsl(311, 8%, 44%) 0%,#000000 100%);
+    /* background-image: linear-gradient(to right, hsl(0, 0%, 40%), hsl(0, 0%, 20%)); */
+}
+#page2{
+    /* background: radial-gradient(ellipse at center, hsl(0, 0%, 50%) 0%,#000000 100%); */
+    background: linear-gradient(135deg, #191010 0%,#3c3756 100%);
+    /* background-image: linear-gradient(to right, rgb(141, 173, 82), rgb(212, 95, 27)); */
+
+}
+#page3{
+    background: radial-gradient(ellipse at center, hsl(0, 0%, 50%) 0%,#000000 100%);
+    /* background-image: linear-gradient(to right, red, rgb(23, 23, 45)); */
+}
+#page4{
+    background: radial-gradient(ellipse at center, hsl(67, 15%, 23%) 0%,#000000 100%);
+    /* background-image: linear-gradient(to right, rgb(185, 150, 150), blue); */
+
+}
+#page5{
+    background: radial-gradient(ellipse at center, hsl(0, 26%, 18%) 0%,#000000 100%);
+    /* background-image: linear-gradient(to right, rgb(52, 25, 25), rgb(146, 229, 135)); */
+
+}
 body{
     background-color: black;
     /* display: flex;
@@ -21,13 +46,14 @@ p{
     position: fixed;
     font-size: 3em;
     color: white;
-
+    /* height: 30vh; */
+    margin: 5vh;
 }
 .center{
     display: flex;
     padding-left: 50px;
-    height: 80%;
-    padding-top: 10vh;
+    height: 80vh;
+    padding-top: 20vh;
 }
 .animation{
     padding: 0px 50px;
@@ -60,35 +86,7 @@ nav {
     position: sticky;
 }
 
-#page1{
-    /* background-color: hsl(0, 0%, 20%); */
-    background: radial-gradient(ellipse at center, hsl(311, 8%, 44%) 0%,#000000 100%);
-    /* background-image: linear-gradient(to right, hsl(0, 0%, 40%), hsl(0, 0%, 20%)); */
-}
-#page2{
-    /* background: radial-gradient(ellipse at center, hsl(0, 0%, 50%) 0%,#000000 100%); */
-    background: linear-gradient(135deg, #191010 0%,#3c3756 100%);
-    /* background-image: linear-gradient(to right, rgb(141, 173, 82), rgb(212, 95, 27)); */
 
-}
-#page3{
-    background: radial-gradient(ellipse at center, hsl(0, 0%, 50%) 0%,#000000 100%);
-
-    /* background-image: linear-gradient(to right, red, rgb(23, 23, 45)); */
-
-}
-#page4{
-    background: radial-gradient(ellipse at center, hsl(67, 15%, 23%) 0%,#000000 100%);
-
-    /* background-image: linear-gradient(to right, rgb(185, 150, 150), blue); */
-
-}
-#page5{
-    background: radial-gradient(ellipse at center, hsl(0, 26%, 18%) 0%,#000000 100%);
-
-    /* background-image: linear-gradient(to right, rgb(52, 25, 25), rgb(146, 229, 135)); */
-
-}
 footer{
     text-align: center;
     background-color:rgb(232, 232, 152);
@@ -102,6 +100,7 @@ footer{
     justify-content: center;
     align-items: flex-end;
     text-align: center;
+    cursor: pointer;
 }
 .btn button{
     padding: 0;

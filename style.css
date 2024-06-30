@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 #page1{
     height: 100vh;
@@ -65,13 +65,13 @@ p{
 }
 .center{
     display: flex;
-    padding-left: 50px;
-    height: 80vh;
-    padding-top: 20vh;
+    /* padding-left: 50px; */
+    height: 400px;
+    padding-top: 100px;
 }
-.animation{
+/* .animation{
     padding: 0px 50px;
-}
+} */
 html{
     scroll-snap-type: y mandatory;
 }
